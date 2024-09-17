@@ -1,13 +1,143 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary: #dbb000;
+  --white: #ffffff;
+  --white: #f6fcfb;
+  --dark: #242629;
+  --dark-2: #000000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* primary fonts */
+body {
+  background-color: #f6fcfb !important;
+}
+
+.text-title-primary {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-subtitle-primary {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.text-paragraph-primary {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Secondary fonts */
+
+.text-title-secondary {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.text-subtitle-secondary {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.text-paragraph-secondary {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1.text-primary {
+  color: var(--primary) !important  ;
+}
+
+header.sticky {
+  background-color: transparent;
+  width: 100%;
+  z-index: 1;
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgba(36, 38, 41, 0.4);
+}
+
+header.scrolled {
+  position: fixed;
+  animation: bounceDrop 0.7s ease-in-out;
+  background-color: var(--dark-2);
+}
+
+.header-link {
+  font-family: "Bebas Neue", sans-serif;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.header-link:hover {
+  box-shadow: inset 0 -5px var(--primary);
+  transition: all 0.5s ease-in-out;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* Optional for better positioning */
+}
+
+.dropdown-toggle::after {
+  display: none; /* Remove default arrow */
+}
+
+.btn-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.banner {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(images/banner1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  z-index: -1;
+}
+
+.btn-close {
+  color: var(--white) !important;
+}
+
+img.services-border {
+  height: 113.4017105102539px;
+  width: 124px;
+  border-radius: 20px;
+  border: 2px solid #dbb000;
+}
+
+.nav-link {
+  color: var(--primary) !important;
+}
+button.active {
+  color: var(--white) !important;
+  background-color: var(--primary) !important;
+}
+
+@keyframes bounceDrop {
+  0% {
+    top: -100px; /* Start off-screen */
+  }
+  60% {
+    top: 0px; /* Bounce slightly below its final position */
+  }
+  80% {
+    top: -1px; /* Bounce slightly above its final position */
+  }
+  100% {
+    top: 0; /* Settle into the final position */
+  }
 }
