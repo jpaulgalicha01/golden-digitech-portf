@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/golden-digitech-portf/static/css/main.aa0888ff.css",
-    "main.js": "/golden-digitech-portf/static/js/main.06597e69.js",
+    "main.js": "/golden-digitech-portf/static/js/main.b47e7723.js",
     "static/js/453.5b95af8c.chunk.js": "/golden-digitech-portf/static/js/453.5b95af8c.chunk.js",
     "static/media/fa-solid-900.ttf": "/golden-digitech-portf/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/golden-digitech-portf/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -17,11 +17,11 @@
     "static/media/fa-v4compatibility.woff2": "/golden-digitech-portf/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/golden-digitech-portf/index.html",
     "main.aa0888ff.css.map": "/golden-digitech-portf/static/css/main.aa0888ff.css.map",
-    "main.06597e69.js.map": "/golden-digitech-portf/static/js/main.06597e69.js.map",
+    "main.b47e7723.js.map": "/golden-digitech-portf/static/js/main.b47e7723.js.map",
     "453.5b95af8c.chunk.js.map": "/golden-digitech-portf/static/js/453.5b95af8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa0888ff.css",
-    "static/js/main.06597e69.js"
+    "static/js/main.b47e7723.js"
   ]
 }
