@@ -25,7 +25,6 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route index path="/" element={<Home scrolled={scrolled} />} />
-        <Route path="*" element={<>No Page Found.</>} />
       </Routes>
     </BrowserRouter>
   );
