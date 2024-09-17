@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/golden-digitech-portf/static/css/main.aa0888ff.css",
+    "main.js": "/golden-digitech-portf/static/js/main.c9c40a67.js",
+    "static/js/453.5b95af8c.chunk.js": "/golden-digitech-portf/static/js/453.5b95af8c.chunk.js",
+    "static/media/fa-solid-900.ttf": "/golden-digitech-portf/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/golden-digitech-portf/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/golden-digitech-portf/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/banner1.jpg": "/golden-digitech-portf/static/media/banner1.34c5fa2706d7c4623496.jpg",
+    "static/media/fa-brands-400.woff2": "/golden-digitech-portf/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/golden-digitech-portf/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/qr-code.jpg": "/golden-digitech-portf/static/media/qr-code.e288607c029fbdde8c5a.jpg",
+    "static/media/fa-regular-400.woff2": "/golden-digitech-portf/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/footer-logo.png": "/golden-digitech-portf/static/media/footer-logo.23cd52444aa714960297.png",
+    "static/media/header-logo.png": "/golden-digitech-portf/static/media/header-logo.c995931de8c9e35806ef.png",
+    "static/media/fa-v4compatibility.ttf": "/golden-digitech-portf/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/golden-digitech-portf/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/golden-digitech-portf/index.html",
+    "main.aa0888ff.css.map": "/golden-digitech-portf/static/css/main.aa0888ff.css.map",
+    "main.c9c40a67.js.map": "/golden-digitech-portf/static/js/main.c9c40a67.js.map",
+    "453.5b95af8c.chunk.js.map": "/golden-digitech-portf/static/js/453.5b95af8c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa0888ff.css",
+    "static/js/main.c9c40a67.js"
+  ]
+}
