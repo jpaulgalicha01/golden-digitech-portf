@@ -1,16 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import img from "../../images/imges";
-export default function Header({ scrolled }) {
+export default function Header({ scrolled, title }) {
   return (
     <>
-      <header className={`sticky ${scrolled ? "scrolled" : ""}`}>
-        <div className="d-lg-none d-block d-flex justify-content-between">
+      <header className={`py-2 sticky ${scrolled ? "scrolled" : ""}`}>
+        <div
+          className="d-lg-none d-block d-flex justify-content-between"
+          data-aos="fade-down"
+          data-aos-duration="900"
+        >
           <Link
             to={"/"}
             className="d-inline-flex link-body-emphasis text-decoration-none"
           >
-            <img src={img.headerLogo} alt="logo" width={209} height={68} />
+            <img src={img.headerLogo} alt="logo" width={230} height={60} />
           </Link>
           <button
             className=" d-lg-none btn btn-outline-none"
@@ -22,7 +26,6 @@ export default function Header({ scrolled }) {
             <i className="fa-solid fa-bars text-white"></i>
           </button>
         </div>
-
         <div
           className="offcanvas-lg offcanvas-end"
           id="offcanvasResponsive"
@@ -44,44 +47,49 @@ export default function Header({ scrolled }) {
                 to={"/"}
                 className="d-inline-flex link-body-emphasis text-decoration-none"
               >
-                <img src={img.headerLogo} alt="logo" width={209} height={68} />
+                <img src={img.headerLogo} alt="logo" width={230} height={60} />
               </Link>
             </div>
 
             <div className="mx-auto align-content-center ">
               <ul className="d-lg-flex d-grid     nav col-12 col-md-auto mb-2 justify-content-start mb-md-0 gap-3 ">
                 <li>
-                  <Link className=" px-2 header-link">Home</Link>
+                  <Link
+                    to={"/"}
+                    className={`px-2 header-link ${
+                      title === "Home" ? "text-primary1" : ""
+                    }`}
+                  >
+                    Home
+                  </Link>
                 </li>
                 <li>
-                  <Link to={""} className=" px-2 header-link">
-                    About Us
+                  <Link
+                    to={"/company-overview"}
+                    className={`px-2 header-link ${
+                      title === "Company Overview" ? "text-primary1" : ""
+                    }`}
+                  >
+                    company overview
                   </Link>
                 </li>
                 <li className="dropdown">
                   <Link
-                    to={""}
-                    className=" px-2 header-link dropdown-toggle"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
+                    to={"/services"}
+                    className={`px-2 header-link ${
+                      title === "Services" ? "text-primary1" : ""
+                    }`}
                   >
                     Services
                   </Link>
-
-                  <ul className="dropdown-menu">
-                    <li>
-                      <Link className="dropdown-item">Action</Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item">Another action</Link>
-                    </li>
-                    <li>
-                      <Link className="dropdown-item">Something else here</Link>
-                    </li>
-                  </ul>
                 </li>
                 <li>
-                  <Link to={""} className=" px-2 header-link">
+                  <Link
+                    to={"/team"}
+                    className={`px-2 header-link ${
+                      title === "Team" ? "text-primary1" : ""
+                    }`}
+                  >
                     Team
                   </Link>
                 </li>
