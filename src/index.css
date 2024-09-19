@@ -8,6 +8,7 @@
 
 /* primary fonts */
 body {
+  overflow: auto !important;
   background-color: #f6fcfb !important;
 }
 
@@ -55,13 +56,16 @@ body {
 h1.text-primary {
   color: var(--primary) !important  ;
 }
+.text-primary1 {
+  color: var(--primary) !important;
+}
 
 header.sticky {
   background-color: transparent;
   width: 100%;
   z-index: 1;
   transition: background-color 0.3s ease-in-out;
-  background-color: rgba(36, 38, 41, 0.4);
+  background-color: rgba(36, 38, 41, 0.2);
 }
 
 header.scrolled {
@@ -98,7 +102,7 @@ header.scrolled {
   border-color: var(--primary) !important;
 }
 
-.banner {
+.home-banner {
   background-color: rgba(0, 0, 0, 0.4);
   background-image: url(images/banner1.jpg);
   background-repeat: no-repeat;
@@ -106,6 +110,47 @@ header.scrolled {
   background-size: cover;
   background-blend-mode: darken;
   z-index: -1;
+}
+/* .company-overview-bg {
+  text-align: center;
+  background-color: rgba(36, 38, 41, 0);
+  background-image: url(images/logo-3d-.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-size: cover;
+} */
+
+.company-overview-bg {
+  position: relative;
+  text-align: center;
+  background-color: rgba(36, 38, 41, 0.1); /* Transparent background */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.company-overview-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/logo-3d-.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  opacity: 0.2; /* Apply opacity to the background image */
+  z-index: 0; /* Ensure it's behind the content */
+}
+
+.company-overview-bg > * {
+  position: relative;
+  z-index: 0; /* Ensure content stays above the background */
 }
 
 .btn-close {
@@ -127,6 +172,22 @@ button.active {
   background-color: var(--primary) !important;
 }
 
+ul li::marker {
+  font-size: 22px;
+  color: var(--primary);
+}
+
+/* Scrollbar width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 2px;
+}
+
 @keyframes bounceDrop {
   0% {
     top: -100px; /* Start off-screen */
@@ -135,7 +196,7 @@ button.active {
     top: 0px; /* Bounce slightly below its final position */
   }
   80% {
-    top: -1px; /* Bounce slightly above its final position */
+    top: -10px; /* Bounce slightly above its final position */
   }
   100% {
     top: 0; /* Settle into the final position */
