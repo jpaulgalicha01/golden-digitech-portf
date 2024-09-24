@@ -38,7 +38,7 @@ export default function Home({ scrolled, title }) {
                   onInit={(typewriter) => {
                     typewriter
                       .typeString(
-                        "“In the digital age, the right skills and support are the keys that unlock doors to endless opportunitie”"
+                        "“In the digital age, the right skills and support are the keys that unlock doors to endless opportunities”"
                       )
                       .pauseFor(2000)
                       .deleteAll()
@@ -63,14 +63,18 @@ export default function Home({ scrolled, title }) {
           </h1>
           <div className="col-lg-6 col-12 d-flex justify-content-center align-items-center">
             <img
-              src={img.logo3D}
+              src={img.logoPlain}
               alt="logo"
-              className="img-fluid pb-lg-0 pb-3"
-              style={{ width: "300px", height: "auto" }}
+              className="img-fluid"
+              style={{
+                width: "500px",
+                height: "auto",
+                filter: "drop-shadow(7px 9px 7px #a8a8a8)",
+              }}
               data-aos="flip-left"
             />
           </div>
-          <div className="col-lg-6 co-12" data-aos="fade-up">
+          <div className="col-lg-6 co-12 mt-lg-0 mt-3" data-aos="fade-up">
             <p
               className="text-paragraph-secondary"
               style={{ textAlign: "justify" }}

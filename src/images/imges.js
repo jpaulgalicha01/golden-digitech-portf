@@ -1,6 +1,7 @@
 const img = {
   headerLogo: require("./header-logo.png"),
   logo3D: require("./logo-3d-.png"),
+  logoPlain: require("./logo-plain.png"),
   services1: require("./customer-support.png"),
   services2: require("./teaching.png"),
   services3: require("./contract.png"),

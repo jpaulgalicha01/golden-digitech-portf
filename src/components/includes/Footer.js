@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import img from "../../images/imges";
 
 export default function Footer() {
   return (
     <>
-      <div className="row pt-5 bg-dark px-3">
-        <div className="col-12 pt-2 pb-4">
+      <div className="row  bg-dark px-3">
+        {/* <div className="col-12 pt-2 pb-4">
           <img
             src={img.footerLogo}
             alt="logo2"
@@ -51,15 +49,15 @@ export default function Footer() {
             <p className="text-white text-subtitle-secondary py-3 m-0">
               Or contact:
             </p>
-            <div className="d-flex gap-2 text-decoration-none py-2">
+            <div className="d-flex align-items-center gap-2">
               <img src={img.mobile} alt="gmail icon" width={50} />
-              <p className="align-content-center nav-link">0955 776 9445</p>
+              <p className="nav-link">0955 776 9445</p>
             </div>
           </div>
         </div>
         <div className="col-lg-6 col-12">
           <div className="d-flex justify-content-between">
-            <div className="d-grid">
+            <div className="d-grid gap-3 mx-auto">
               <Link
                 to={"/"}
                 className="text-decoration-none text-title-secondary text-white"
@@ -109,15 +107,14 @@ export default function Footer() {
                 className="img-fluid"
                 alt="barcode"
                 style={{
-                  width: "276px",
+                  width: "200px",
                   height: "auto",
                 }}
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <hr className="mt-3" style={{ color: "white" }} />
         <p
           className="text-center pt-2 text-white text-paragraph-secondary fw-lighter"
           style={{ fontSize: ".8rem" }}

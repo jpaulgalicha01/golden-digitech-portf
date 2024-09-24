@@ -5,13 +5,16 @@ import CompanyOverview from "./components/pages/CompanyOverview";
 import ScrollTop from "./components/Class/ScrollTop";
 import Services from "./components/pages/Services";
 import Team from "./components/pages/Team";
+import Contact from "./components/pages/Contact";
 
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
 
   const handleScroll = () => {
     const offset = window.scrollY;
-    if (offset > 250) {
+    if (offset > 150) {
+      setScrolled(true);
+    } else if (offset < 150 && offset > 10) {
       setScrolled(true);
     } else {
       setScrolled(false);
@@ -47,6 +50,10 @@ export default function App() {
         <Route
           path="/team"
           element={<Team scrolled={scrolled} title={"Team"} />}
+        />
+        <Route
+          path="/contact-us"
+          element={<Contact scrolled={scrolled} title={"Contact Us"} />}
         />
         <Route path="*" element={<>No Page Found.</>} />
       </Routes>
