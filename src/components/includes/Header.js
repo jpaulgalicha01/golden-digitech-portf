@@ -96,7 +96,8 @@ export default function Header({ scrolled, title }) {
               </ul>
             </div>
             <div className="text-lg-end text-start align-content-center">
-              <button
+              <Link
+                to={"/contact-us"}
                 type="button"
                 className="btn btn-primary me-2"
                 style={{
@@ -105,7 +106,7 @@ export default function Header({ scrolled, title }) {
                 }}
               >
                 <i className="fa-solid fa-headset me-1"></i> Contact Us
-              </button>
+              </Link>
             </div>
           </div>
         </div>
