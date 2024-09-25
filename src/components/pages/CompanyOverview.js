@@ -8,9 +8,9 @@ export default function CompanyOverview({ scrolled, title }) {
   return (
     <>
       <div className="container-fluid" style={{ backgroundColor: "black" }}>
-        <div className="row ">
+        <div className="row company-overview-bg">
           <Header scrolled={scrolled} title={title} />
-          <div className="d-flex justify-content-center company-overview-bg  ">
+          <div className="d-flex justify-content-center ">
             <div className="col-md-10 col-11 py-5">
               <h1
                 className="text-title-primary text-primary pb-lg-5 pb-2"

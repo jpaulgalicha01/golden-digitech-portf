@@ -688,20 +688,6 @@ export default function Home({ scrolled, title }) {
           </div>
         </div>
 
-        {/* <div className="row py-4 my-4">
-          <div
-            className="col-12 bg-dark p-5"
-            style={{ borderRadius: "30px 30px 0px 0px", height: "200px" }}
-          >
-            <h1
-              className="text-title-primary text-primary pb-lg-5 pb-1 text-center"
-              style={{ fontSize: "calc(2vw + 1.5vh + 2vmin)" }}
-            >
-              GOLDEN DIGITECH TEAM
-            </h1>
-          </div>
-        </div> */}
-
         <Footer />
       </div>
     </>

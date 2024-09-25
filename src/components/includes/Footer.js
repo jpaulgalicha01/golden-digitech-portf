@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <div className="row  bg-dark px-3">
+      <div className="row  bg-dark px-3 pt-1">
         {/* <div className="col-12 pt-2 pb-4">
           <img
             src={img.footerLogo}
