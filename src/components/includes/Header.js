@@ -4,7 +4,7 @@ import img from "../../images/imges";
 export default function Header({ scrolled, title }) {
   return (
     <>
-      <header className={`py-2 sticky ${scrolled ? "scrolled" : ""}`}>
+      <header className={`py-1 sticky ${scrolled ? "scrolled" : ""}`}>
         <div
           className="d-lg-none d-block d-flex justify-content-between"
           data-aos="fade-down"

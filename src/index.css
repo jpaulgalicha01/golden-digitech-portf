@@ -114,21 +114,21 @@ header.scrolled {
   background-blend-mode: darken;
   z-index: -1;
 }
-/* .company-overview-bg {
+.company-overview-bg {
   text-align: center;
-  background-color: rgba(36, 38, 41, 0);
-  background-image: url(images/logo-3d-.png);
+  background-color: rgba(0, 0, 0, 0.7);
+  background-image: url(images/logo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-blend-mode: overlay;
-  background-size: cover;
-} */
+  background-size: contain;
+}
 
-.company-overview-bg {
+/* .company-overview-bg {
   position: relative;
   text-align: center;
-  background-color: rgba(36, 38, 41, 0.1); /* Transparent background */
+  background-color: rgba(36, 38, 41, 0.1);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -147,14 +147,14 @@ header.scrolled {
   background-size: cover;
   background-position: center;
   text-align: center;
-  opacity: 0.2; /* Apply opacity to the background image */
-  z-index: 0; /* Ensure it's behind the content */
+  opacity: 0.2; 
+  z-index: 0; 
 }
 
 .company-overview-bg > * {
   position: relative;
-  z-index: 0; /* Ensure content stays above the background */
-}
+  z-index: 0; 
+} */
 
 .btn-close {
   color: var(--white) !important;

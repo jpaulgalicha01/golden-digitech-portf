@@ -19,6 +19,10 @@ const img = {
   gmail: require("./gmail-icon.png"),
   facebook: require("./facebook-icon.png"),
   mobile: require("./mobile-icon.png"),
+  team1: require("./team-1.png"),
+  team2: require("./team-2.png"),
+  team3: require("./team-3.png"),
+  team4: require("./team-4.png"),
 };
 
 export default img;
