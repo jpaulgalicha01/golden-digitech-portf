@@ -51,7 +51,7 @@ export default function Header({ scrolled, title }) {
               </Link>
             </div>
 
-            <div className="mx-auto align-content-center ">
+            <div className="mx-auto align-content-center text-start">
               <ul className="d-lg-flex d-grid     nav col-12 col-md-auto mb-2 justify-content-start mb-md-0 gap-3 ">
                 <li>
                   <Link

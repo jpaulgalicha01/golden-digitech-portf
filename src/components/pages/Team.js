@@ -20,11 +20,12 @@ export default function Team({ scrolled, title }) {
                     style={{
                       fontSize: "calc(1.5vw + 1.0vh + .9vmin)",
                     }}
+                    data-aos="fade-up"
                   >
                     GOLDEN DIGITECH TEAM
                   </h1>
                   <div className="d-lg-flex d-grid justify-content-lg-between justify-content-center pt-lg-5 pt-3">
-                    <div className="w-lg-50 w-100 d-grid ">
+                    <div className="w-lg-50 w-100 d-grid " data-aos="fade-up">
                       <div className="d-flex justify-content-center">
                         <img
                           src={img.team1}
@@ -40,7 +41,7 @@ export default function Team({ scrolled, title }) {
                         Proprietor
                       </p>
                     </div>
-                    <div className="w-lg-50 w-100 d-grid ">
+                    <div className="w-lg-50 w-100 d-grid " data-aos="fade-up">
                       <div className="d-flex justify-content-center">
                         <img
                           src={img.team2}
@@ -58,7 +59,7 @@ export default function Team({ scrolled, title }) {
                     </div>
                   </div>
                   <div className="d-lg-flex d-grid justify-content-lg-between justify-content-center pt-lg-5 pt-3">
-                    <div className="w-lg-50 w-100 d-grid ">
+                    <div className="w-lg-50 w-100 d-grid " data-aos="fade-up">
                       <div className="d-flex justify-content-center">
                         <img
                           src={img.team3}
@@ -75,7 +76,7 @@ export default function Team({ scrolled, title }) {
                         Specialist
                       </p>
                     </div>
-                    <div className="w-lg-50 w-100 d-grid ">
+                    <div className="w-lg-50 w-100 d-grid " data-aos="fade-up">
                       <div className="d-flex justify-content-center">
                         <img
                           src={img.team4}
@@ -97,13 +98,17 @@ export default function Team({ scrolled, title }) {
                   <p
                     className="fs-5 text-title-secondary text-lg-start text-center pb-3"
                     style={{ color: "#dbb000" }}
+                    data-aos="fade-up"
                   >
                     Plus a team of several contractors/service providers for the
                     call center and virtual assistance services:
                   </p>
                   <div className="d-lg-flex d-grid justify-content-lg-between justify-content-center pt-lg-5 pt-2">
                     <div className="w-lg-50 w-100 d-grid ">
-                      <p className="text-paragraph-secondary text-white text-lg-start text-center pb-0 mb-0">
+                      <p
+                        className="text-paragraph-secondary text-white text-lg-start text-center pb-0 mb-0"
+                        data-aos="fade-up"
+                      >
                         Social Media Managers <br />
                         Social Media Marketers <br />
                         Customer Service Representatives <br />
@@ -113,7 +118,10 @@ export default function Team({ scrolled, title }) {
                       </p>
                     </div>
                     <div className="w-lg-50 w-100 d-grid pt-lg-0 pt-4">
-                      <p className="text-paragraph-secondary text-white text-lg-start text-center pb-lg-0 mb-0">
+                      <p
+                        className="text-paragraph-secondary text-white text-lg-start text-center pb-lg-0 mb-0"
+                        data-aos="fade-up"
+                      >
                         Lead Generation Specialists <br />
                         Cold Callers and Appointment-Setters <br />
                         General Virtual Assistants <br />
@@ -125,7 +133,10 @@ export default function Team({ scrolled, title }) {
                   </div>
                   <div className="d-lg-flex d-grid justify-content-lg-between justify-content-center pt-lg-5 pt-2">
                     <div className="w-lg-50 w-100 d-grid pt-lg-0 pt-4">
-                      <p className="text-paragraph-secondary text-white text-lg-start text-center pb-lg-0 mb-0">
+                      <p
+                        className="text-paragraph-secondary text-white text-lg-start text-center pb-lg-0 mb-0"
+                        data-aos="fade-up"
+                      >
                         Real Estate Virtual Assistants <br />
                         Accounting and Bookkeeping Virtual Assistants <br />
                         Web Developers and Designers <br />
