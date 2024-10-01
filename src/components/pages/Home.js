@@ -169,8 +169,7 @@ export default function Home({ scrolled, title }) {
                       height={97.5}
                     />
                     <p className="text-subtitle-secondary pt-2">
-                      Our Team of Virtual Assistants and Outsourcing Services
-                      Providers
+                      Virtual Assistance and Outsourcing Services
                     </p>
                   </div>
                 </div>
@@ -216,7 +215,7 @@ export default function Home({ scrolled, title }) {
                   aria-controls="v-pills-first"
                   aria-selected="true"
                 >
-                  POOL MASTER E-COMMERCE
+                  Pool Master Swimming Pool Equipment & Chemical Supplies
                 </button>
                 <button
                   className="nav-link text-subtitle-secondary"
@@ -228,7 +227,7 @@ export default function Home({ scrolled, title }) {
                   aria-controls="v-pills-second"
                   aria-selected="false"
                 >
-                  POOL MASTER E-COMMERCE | Shopee Store
+                  POOL MASTER E-COMMERCE | Lazada & Shopee Store
                 </button>
                 <button
                   className="nav-link text-subtitle-secondary"
@@ -240,7 +239,7 @@ export default function Home({ scrolled, title }) {
                   aria-controls="v-pills-third"
                   aria-selected="false"
                 >
-                  POOL MASTER E-COMMERCE | Lazada Store
+                  Swimming Pool Filter Elements
                 </button>
                 <button
                   className="nav-link text-subtitle-secondary"
@@ -252,7 +251,7 @@ export default function Home({ scrolled, title }) {
                   aria-controls="v-pills-fourth"
                   aria-selected="false"
                 >
-                  Provided Services for Golden Agri
+                  Golden Agri Ventures
                 </button>
                 <button
                   className="nav-link text-subtitle-secondary"
@@ -264,7 +263,7 @@ export default function Home({ scrolled, title }) {
                   aria-controls="v-pills-fifth"
                   aria-selected="false"
                 >
-                  GOLDEN AGRI E-COMMERCE
+                  GOLDEN AGRI E-COMMERCE | Lazada & Shopee Store
                 </button>
                 <button
                   className="nav-link text-subtitle-secondary"
@@ -276,7 +275,7 @@ export default function Home({ scrolled, title }) {
                   aria-controls="v-pills-sixth"
                   aria-selected="false"
                 >
-                  Provided Services for Sytask, Inc
+                  Sytask, Inc
                 </button>
                 <button
                   className="nav-link text-subtitle-secondary"
@@ -288,7 +287,7 @@ export default function Home({ scrolled, title }) {
                   aria-controls="v-pills-seven"
                   aria-selected="false"
                 >
-                  Provided Services for GS Gamboa Corp.
+                  GS Gamboa Corp.
                 </button>
                 <button
                   className="nav-link text-subtitle-secondary"
@@ -301,18 +300,6 @@ export default function Home({ scrolled, title }) {
                   aria-selected="false"
                 >
                   GD Virtual Assistance and Outsourcing Services
-                </button>
-                <button
-                  className="nav-link text-subtitle-secondary"
-                  id="v-pills-nine-tab"
-                  data-bs-toggle="pill"
-                  data-bs-target="#v-pills-nine"
-                  type="button"
-                  role="tab"
-                  aria-controls="v-pills-nine"
-                  aria-selected="false"
-                >
-                  Results of Meta Ads in Managed Facebook Pages
                 </button>
               </div>
 
@@ -377,12 +364,24 @@ export default function Home({ scrolled, title }) {
                 >
                   <div className="row p-lg-5 p-3">
                     <div className="col-lg-6 col-12 py-lg-0 py-2">
-                      <img
-                        src={img.sample2}
-                        className="img-fluid"
-                        alt="sample1"
-                        style={{ width: "500px" }}
-                      />
+                      <div className="d-grid gap-2 justify-content-center">
+                        <div>
+                          <img
+                            src={img.sample2}
+                            className="img-fluid"
+                            alt="sample1"
+                            style={{ width: "290px" }}
+                          />
+                        </div>
+                        <div>
+                          <img
+                            src={img.sample3}
+                            className="img-fluid"
+                            alt="sample1"
+                            style={{ width: "290px" }}
+                          />
+                        </div>
+                      </div>
                     </div>
                     <div className="col-lg-6 col-12 py-lg-0 py-2">
                       <ul>
@@ -430,51 +429,7 @@ export default function Home({ scrolled, title }) {
                   aria-labelledby="v-pills-third-tab"
                 >
                   <div className="row p-lg-5 p-3">
-                    <div className="col-lg-6 col-12 py-lg-0 py-2">
-                      <img
-                        src={img.sample3}
-                        className="img-fluid"
-                        alt="sample1"
-                        style={{ width: "500px" }}
-                      />
-                    </div>
-                    <div className="col-lg-6 col-12 py-lg-0 py-2">
-                      <ul>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Online store design
-                        </li>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Online store creation and setup
-                        </li>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Product shoot
-                        </li>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Editing of product photos
-                        </li>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Uploading of product photos
-                        </li>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Product measurement
-                        </li>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Entry of product details
-                        </li>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Setting up payment options
-                        </li>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Customer service chat
-                        </li>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Processing of orders
-                        </li>
-                        <li className="text-paragraph-secondary text-secondary">
-                          Product inventory update{" "}
-                        </li>
-                      </ul>
-                    </div>
+                    Swimming Pool Filter Elements
                   </div>
                 </div>
                 <div
@@ -650,37 +605,6 @@ export default function Home({ scrolled, title }) {
                         alt="sample1"
                       />
                     </div>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade shadow p-3 mb-5 bg-white  rounded"
-                  id="v-pills-nine"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-nine-tab"
-                >
-                  <div className="row p-lg-5 p-3">
-                    Results of Meta Ads in Managed Facebook Pages
-                    {/* <div className="col-lg-6 col-12 py-lg-0 py-2">
-                      <img
-                        src={img.sample4}
-                        className="img-fluid"
-                        alt="sample1"
-                        style={{ width: "500px" }}
-                      />
-                    </div> */}
-                    {/* <div className="col-lg-6 col-12 py-lg-0 py-2">
-                      <ul>
-                        <li className="text-paragraph-secondary text-secondary">Social Media Management</li>
-                        <li className="text-paragraph-secondary text-secondary">Graphic Design</li>
-                        <li className="text-paragraph-secondary text-secondary">Meta Ads</li>
-                        <li className="text-paragraph-secondary text-secondary">E-commerce Set-up and Support</li>
-                        <li className="text-paragraph-secondary text-secondary">Branding & Brand Strategy</li>
-                        <li className="text-paragraph-secondary text-secondary">Video Creation & Editing</li>
-                        <li className="text-paragraph-secondary text-secondary">Social Media Content Strategy & Marketing</li>
-                        <li className="text-paragraph-secondary text-secondary">Online Customer Service</li>
-                        <li className="text-paragraph-secondary text-secondary">Virtual Assistance</li>
-                      </ul>
-                    </div> */}
                   </div>
                 </div>
               </div>
