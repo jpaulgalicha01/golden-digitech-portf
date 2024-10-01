@@ -12,7 +12,7 @@ export default function Contact({ scrolled, title }) {
       <div className="container-fluid" style={{ backgroundColor: "black" }}>
         <div className="row company-overview-bg">
           <Header scrolled={scrolled} title={title} />
-          <div className="p-0 m-0 row">
+          <div className="p-0 m-0 row" style={{ minHeight: "100vh" }}>
             <div className="col-md-6 col-12 d-grid py-lg-5 py-3">
               <div className="map-container img-fluid">
                 <iframe

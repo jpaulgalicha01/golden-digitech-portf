@@ -11,7 +11,10 @@ export default function Team({ scrolled, title }) {
       <div className="container-fluid" style={{ backgroundColor: "black" }}>
         <div className="row company-overview-bg">
           <Header scrolled={scrolled} title={title} />
-          <div className="d-flex justify-content-center">
+          <div
+            className="d-flex justify-content-center"
+            style={{ minHeight: "100vh" }}
+          >
             <div className="col-lg-10 col-11 py-5">
               <div className="row text-start">
                 <div className="col-lg-5 col-12">
