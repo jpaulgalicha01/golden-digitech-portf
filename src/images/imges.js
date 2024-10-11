@@ -23,6 +23,11 @@ const img = {
   team2: require("./team-2.png"),
   team3: require("./team-3.png"),
   team4: require("./team-4.png"),
+  banner2: require("./banner2.jpg"),
+  esl1: require("./ESL 1.png"),
+  esl2: require("./ESL 2.png"),
+  esl3: require("./ESL 3.png"),
+  esl4: require("./ESL 4.png"),
 };
 
 export default img;

@@ -31,6 +31,7 @@ export default function Team({ scrolled, title }) {
                     <div className="w-lg-50 w-100 d-grid " data-aos="fade-up">
                       <div className="d-flex justify-content-center">
                         <img
+                          loading="lazy"
                           src={img.team1}
                           alt=""
                           width={120}
@@ -41,12 +42,13 @@ export default function Team({ scrolled, title }) {
                         Andy M. Venus
                       </p>
                       <p className="text-paragraph-secondary text-white text-center">
-                        Proprietor
+                        Founder
                       </p>
                     </div>
                     <div className="w-lg-50 w-100 d-grid " data-aos="fade-up">
                       <div className="d-flex justify-content-center">
                         <img
+                          loading="lazy"
                           src={img.team2}
                           alt=""
                           width={120}
@@ -57,7 +59,7 @@ export default function Team({ scrolled, title }) {
                         Cherry Pearl G. Lopez
                       </p>
                       <p className="text-paragraph-secondary text-white text-center">
-                        Co-Owner and Operations Manager
+                        Co-Founder and Operations Manager
                       </p>
                     </div>
                   </div>
@@ -65,6 +67,7 @@ export default function Team({ scrolled, title }) {
                     <div className="w-lg-50 w-100 d-grid " data-aos="fade-up">
                       <div className="d-flex justify-content-center">
                         <img
+                          loading="lazy"
                           src={img.team3}
                           alt=""
                           width={120}
@@ -75,13 +78,13 @@ export default function Team({ scrolled, title }) {
                         John S. Halamane
                       </p>
                       <p className="text-paragraph-secondary text-white text-center">
-                        Sales and E-commerce <br />
-                        Specialist
+                        Social Media and E-commerce Specialist
                       </p>
                     </div>
                     <div className="w-lg-50 w-100 d-grid " data-aos="fade-up">
                       <div className="d-flex justify-content-center">
                         <img
+                          loading="lazy"
                           src={img.team4}
                           alt=""
                           width={120}

@@ -63,6 +63,7 @@ export default function Home({ scrolled, title }) {
           </h1>
           <div className="col-lg-6 col-12 d-flex justify-content-center align-items-center">
             <img
+              loading="lazy"
               src={img.logoPlain}
               alt="logo"
               className="img-fluid"
@@ -117,6 +118,7 @@ export default function Home({ scrolled, title }) {
                     data-aos="fade-up"
                   >
                     <img
+                      loading="lazy"
                       className="services-border p-2  "
                       src={img.services1}
                       alt="services1"
@@ -132,6 +134,7 @@ export default function Home({ scrolled, title }) {
                     data-aos="fade-up"
                   >
                     <img
+                      loading="lazy"
                       className="services-border p-2  "
                       src={img.services2}
                       alt="services1"
@@ -147,6 +150,7 @@ export default function Home({ scrolled, title }) {
                     data-aos="fade-up"
                   >
                     <img
+                      loading="lazy"
                       className="services-border p-2  "
                       src={img.services3}
                       alt="services1"
@@ -162,6 +166,7 @@ export default function Home({ scrolled, title }) {
                     data-aos="fade-up"
                   >
                     <img
+                      loading="lazy"
                       className="services-border p-2  "
                       src={img.services4}
                       alt="services1"
@@ -317,6 +322,7 @@ export default function Home({ scrolled, title }) {
                   <div className="row p-lg-5 p-3">
                     <div className="col-lg-6 col-12 py-lg-0 py-2">
                       <img
+                        loading="lazy"
                         src={img.sample1}
                         className="img-fluid"
                         alt="sample1"
@@ -367,6 +373,7 @@ export default function Home({ scrolled, title }) {
                       <div className="d-grid gap-2 justify-content-center">
                         <div>
                           <img
+                            loading="lazy"
                             src={img.sample2}
                             className="img-fluid"
                             alt="sample1"
@@ -375,6 +382,7 @@ export default function Home({ scrolled, title }) {
                         </div>
                         <div>
                           <img
+                            loading="lazy"
                             src={img.sample3}
                             className="img-fluid"
                             alt="sample1"
@@ -441,6 +449,7 @@ export default function Home({ scrolled, title }) {
                   <div className="row p-lg-5 p-3">
                     <div className="col-lg-6 col-12 py-lg-0 py-2">
                       <img
+                        loading="lazy"
                         src={img.sample4}
                         className="img-fluid"
                         alt="sample1"
@@ -490,6 +499,7 @@ export default function Home({ scrolled, title }) {
                     GOLDEN AGRI E-COMMERCE
                     {/* <div className="col-lg-6 col-12 py-lg-0 py-2">
                       <img
+                      loading="lazy"
                         src={img.sample4}
                         className="img-fluid"
                         alt="sample1"
@@ -520,6 +530,7 @@ export default function Home({ scrolled, title }) {
                   <div className="row p-lg-5 p-3">
                     <div className="col-lg-6 col-12 py-lg-0 py-2">
                       <img
+                        loading="lazy"
                         src={img.sample6}
                         className="img-fluid"
                         alt="sample1"
@@ -553,6 +564,7 @@ export default function Home({ scrolled, title }) {
                   <div className="row p-lg-5 p-3">
                     <div className="col-lg-6 col-12 py-lg-0 py-2">
                       <img
+                        loading="lazy"
                         src={img.sample7}
                         className="img-fluid"
                         alt="sample1"
@@ -593,6 +605,7 @@ export default function Home({ scrolled, title }) {
                   <div className="row p-lg-5 p-3">
                     <div className="col-lg-6 col-12 py-lg-0 py-2">
                       <img
+                        loading="lazy"
                         src={img.sample8A}
                         className="img-fluid"
                         alt="sample1"
@@ -600,6 +613,7 @@ export default function Home({ scrolled, title }) {
                     </div>
                     <div className="col-lg-6 col-12 py-lg-0 py-2">
                       <img
+                        loading="lazy"
                         src={img.sample8b}
                         className="img-fluid"
                         alt="sample1"
