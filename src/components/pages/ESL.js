@@ -57,7 +57,7 @@ export default function ESL({ scrolled, title }) {
                 >
                   <div>
                     <img
-                      src={img.facebook}
+                      src={img.personalLearning}
                       alt=""
                       width={"150"}
                       className="img-fluid pb-5"
@@ -75,7 +75,7 @@ export default function ESL({ scrolled, title }) {
                 >
                   <div>
                     <img
-                      src={img.facebook}
+                      src={img.expIns}
                       alt=""
                       width={"150"}
                       className="img-fluid pb-5"
@@ -94,7 +94,7 @@ export default function ESL({ scrolled, title }) {
                 >
                   <div>
                     <img
-                      src={img.facebook}
+                      src={img.interactiveEngaging}
                       alt=""
                       width={"150"}
                       className="img-fluid pb-5"
@@ -113,7 +113,7 @@ export default function ESL({ scrolled, title }) {
                 >
                   <div>
                     <img
-                      src={img.facebook}
+                      src={img.globalOppur}
                       alt=""
                       width={"150"}
                       className="img-fluid pb-5"
@@ -146,7 +146,7 @@ export default function ESL({ scrolled, title }) {
                 >
                   <div className="d-md-none d-block pb-5">
                     <img
-                      src={img.facebook}
+                      src={img.beginAd}
                       alt=""
                       width={"150px"}
                       className="img-fluid"
@@ -164,7 +164,7 @@ export default function ESL({ scrolled, title }) {
                 </div>
                 <div className="w-50 d-md-block d-none d-flex align-content-center">
                   <img
-                    src={img.facebook}
+                    src={img.beginAd}
                     alt=""
                     width={"150px"}
                     className="img-fluid"
@@ -175,7 +175,7 @@ export default function ESL({ scrolled, title }) {
               <div className="col-12 d-md-flex d-grid pt-5">
                 <div className="w-50 d-md-block d-none d-flex align-content-center">
                   <img
-                    src={img.facebook}
+                    src={img.specialCourse}
                     alt=""
                     width={"150px"}
                     className="img-fluid"
@@ -192,7 +192,7 @@ export default function ESL({ scrolled, title }) {
                 >
                   <div className="d-md-none d-block pb-5">
                     <img
-                      src={img.facebook}
+                      src={img.specialCourse}
                       alt=""
                       width={"150px"}
                       className="img-fluid"
@@ -223,7 +223,7 @@ export default function ESL({ scrolled, title }) {
                 >
                   <div className="d-md-none d-block pb-5">
                     <img
-                      src={img.facebook}
+                      src={img.flexLearning}
                       alt=""
                       width={"150px"}
                       className="img-fluid"
@@ -244,7 +244,7 @@ export default function ESL({ scrolled, title }) {
                 </div>
                 <div className="w-50 d-md-block d-none d-flex align-content-center">
                   <img
-                    src={img.facebook}
+                    src={img.flexLearning}
                     alt=""
                     width={"150px"}
                     className="img-fluid"

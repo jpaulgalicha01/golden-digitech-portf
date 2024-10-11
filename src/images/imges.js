@@ -28,6 +28,13 @@ const img = {
   esl2: require("./ESL 2.png"),
   esl3: require("./ESL 3.png"),
   esl4: require("./ESL 4.png"),
+  personalLearning: require("./Personalized Learning.png"),
+  expIns: require("./Experienced Instructors.png"),
+  interactiveEngaging: require("./Interactive & Engaging.png"),
+  globalOppur: require("./Global Opportunities.png"),
+  beginAd: require("./Beginner to Advance.png"),
+  specialCourse: require("./Specialized Course.png"),
+  flexLearning: require("./Flexible Learning Options.png"),
 };
 
 export default img;
