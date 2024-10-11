@@ -6,6 +6,7 @@ import ScrollTop from "./components/Class/ScrollTop";
 import Services from "./components/pages/Services";
 import Team from "./components/pages/Team";
 import Contact from "./components/pages/Contact";
+import ESL from "./components/pages/ESL";
 
 export default function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -48,6 +49,10 @@ export default function App() {
           element={<Services scrolled={scrolled} title={"Services"} />}
         />
         <Route
+          path="/esl"
+          element={<ESL scrolled={scrolled} title={"ESL"} />}
+        />
+        <Route
           path="/team"
           element={<Team scrolled={scrolled} title={"Team"} />}
         />
@@ -55,6 +60,7 @@ export default function App() {
           path="/contact-us"
           element={<Contact scrolled={scrolled} title={"Contact Us"} />}
         />
+
         <Route path="*" element={<>No Page Found.</>} />
       </Routes>
     </BrowserRouter>

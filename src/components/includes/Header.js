@@ -85,6 +85,16 @@ export default function Header({ scrolled, title }) {
                 </li>
                 <li>
                   <Link
+                    to={"/esl"}
+                    className={`px-2 header-link ${
+                      title === "ESL" ? "text-primary1" : ""
+                    }`}
+                  >
+                    ESL
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     to={"/team"}
                     className={`px-2 header-link ${
                       title === "Team" ? "text-primary1" : ""

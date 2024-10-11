@@ -101,7 +101,10 @@ export default function CompanyOverview({ scrolled, title }) {
                   className="col-lg-4 col-12 py-lg-3 py-3"
                   data-aos="fade-up"
                 >
-                  <div className="card" style={{ backgroundColor: "#dbb000" }}>
+                  <div
+                    className="card"
+                    style={{ backgroundColor: "#dbb000", height: "250px" }}
+                  >
                     <div className="card-body p-3">
                       <p className="fs-3 text-title-secondary text-center text-white">
                         Excellence
@@ -122,7 +125,10 @@ export default function CompanyOverview({ scrolled, title }) {
                   className="col-lg-4 col-12 py-lg-3 py-3"
                   data-aos="fade-up"
                 >
-                  <div className="card" style={{ backgroundColor: "#dbb000" }}>
+                  <div
+                    className="card"
+                    style={{ backgroundColor: "#dbb000", height: "250px" }}
+                  >
                     <div className="card-body p-3">
                       <p className="fs-3 text-title-secondary text-center text-white">
                         Innovation
@@ -142,7 +148,10 @@ export default function CompanyOverview({ scrolled, title }) {
                   className="col-lg-4 col-12 py-lg-3 py-3"
                   data-aos="fade-up"
                 >
-                  <div className="card" style={{ backgroundColor: "#dbb000" }}>
+                  <div
+                    className="card"
+                    style={{ backgroundColor: "#dbb000", height: "250px" }}
+                  >
                     <div className="card-body p-3">
                       <p className="fs-3 text-title-secondary text-center text-white">
                         Empowerment
@@ -163,7 +172,10 @@ export default function CompanyOverview({ scrolled, title }) {
                   className="col-lg-4 col-12 py-lg-3 py-3"
                   data-aos="fade-up"
                 >
-                  <div className="card" style={{ backgroundColor: "#dbb000" }}>
+                  <div
+                    className="card"
+                    style={{ backgroundColor: "#dbb000", height: "250px" }}
+                  >
                     <div className="card-body p-3">
                       <p className="fs-3 text-title-secondary text-center text-white">
                         Integrity
@@ -184,7 +196,10 @@ export default function CompanyOverview({ scrolled, title }) {
                   className="col-lg-4 col-12 py-lg-3 py-3"
                   data-aos="fade-up"
                 >
-                  <div className="card" style={{ backgroundColor: "#dbb000" }}>
+                  <div
+                    className="card"
+                    style={{ backgroundColor: "#dbb000", height: "250px" }}
+                  >
                     <div className="card-body p-3">
                       <p className="fs-3 text-title-secondary text-center text-white">
                         Collaboration
@@ -205,7 +220,10 @@ export default function CompanyOverview({ scrolled, title }) {
                   className="col-lg-4 col-12 py-lg-3 py-3"
                   data-aos="fade-up"
                 >
-                  <div className="card" style={{ backgroundColor: "#dbb000" }}>
+                  <div
+                    className="card"
+                    style={{ backgroundColor: "#dbb000", height: "250px" }}
+                  >
                     <div className="card-body p-3">
                       <p className="fs-3 text-title-secondary text-center text-white">
                         Community
