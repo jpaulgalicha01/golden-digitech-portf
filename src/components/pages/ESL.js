@@ -164,6 +164,7 @@ export default function ESL({ scrolled, title }) {
                 </div>
                 <div className="w-50 d-md-block d-none d-flex align-content-center">
                   <img
+                    loading="lazy"
                     src={img.beginAd}
                     alt=""
                     width={"150px"}
@@ -175,6 +176,7 @@ export default function ESL({ scrolled, title }) {
               <div className="col-12 d-md-flex d-grid pt-5">
                 <div className="w-50 d-md-block d-none d-flex align-content-center">
                   <img
+                    loading="lazy"
                     src={img.specialCourse}
                     alt=""
                     width={"150px"}
@@ -244,6 +246,7 @@ export default function ESL({ scrolled, title }) {
                 </div>
                 <div className="w-50 d-md-block d-none d-flex align-content-center">
                   <img
+                    loading="lazy"
                     src={img.flexLearning}
                     alt=""
                     width={"150px"}
@@ -265,8 +268,8 @@ export default function ESL({ scrolled, title }) {
                 <div
                   id="carouselExampleCaptions"
                   className="carousel slide"
-                  data-bs-ride="true"
                   data-aos="fade-up"
+                  data-bs-wrap="true"
                 >
                   <div className="carousel-indicators" style={{ zIndex: "1" }}>
                     <button
@@ -301,12 +304,12 @@ export default function ESL({ scrolled, title }) {
                       <img
                         src={img.esl1}
                         className="d-block mx-auto img-fluid"
-                        width={"550px"}
+                        style={{ width: "550px" }}
                         alt="..."
                         loading="lazy"
                       />
                       <div className="carousel-caption d-md-block">
-                        <p className=" text-center">
+                        <p>
                           Take Our Free Placement Test: Determine your current
                           English level.
                         </p>
@@ -316,7 +319,7 @@ export default function ESL({ scrolled, title }) {
                       <img
                         src={img.esl2}
                         className="d-block mx-auto img-fluid"
-                        width={"550px"}
+                        style={{ width: "550px" }}
                         alt="..."
                         loading="lazy"
                       />
@@ -331,14 +334,14 @@ export default function ESL({ scrolled, title }) {
                       <img
                         src={img.esl3}
                         className="d-block mx-auto img-fluid"
-                        width={"550px"}
+                        style={{ width: "550px" }}
                         alt="..."
                         loading="lazy"
                       />
                       <div className="carousel-caption d-md-block">
                         <p>
-                          Enroll in Your Course: Choose the program that fits
-                          your schedule and goals.
+                          Enroll in Your Course: Choose the program that
+                          <br /> fits your schedule and goals.
                         </p>
                       </div>
                     </div>
@@ -346,13 +349,14 @@ export default function ESL({ scrolled, title }) {
                       <img
                         src={img.esl4}
                         className="d-block mx-auto img-fluid"
-                        width={"550px"}
+                        style={{ width: "550px" }}
                         alt="..."
                         loading="lazy"
                       />
                       <div className="carousel-caption d-md-block">
                         <p>
                           Start Learning: Begin your ESL journey with us and
+                          <br />
                           unlock new opportunities!
                         </p>
                       </div>
@@ -417,7 +421,7 @@ export default function ESL({ scrolled, title }) {
                     fontSize: "larger",
                   }}
                 >
-                  <i className="fa-solid fa-headset me-1" /> Get in touch
+                  <i className="fa-solid fa-headset me-1" /> Contact Us
                 </Link>
               </div>
             </div>

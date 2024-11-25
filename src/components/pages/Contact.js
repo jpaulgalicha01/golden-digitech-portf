@@ -75,7 +75,7 @@ export default function Contact({ scrolled, title }) {
               </div>
 
               <div className="pt-lg-5 pt-3 d-flex justify-content-between mx-auto">
-                <div className="w-50 d-flex align-items-end" data-aos="fade-up">
+                <div className="w-50 d-flex align-items-end">
                   <h1
                     className="text-title-primary text-white"
                     style={{
@@ -89,7 +89,6 @@ export default function Contact({ scrolled, title }) {
                   <p
                     className="text-title-secondary text-center"
                     style={{ color: "#dbb000" }}
-                    data-aos="fade-up"
                   >
                     Scan Me
                   </p>
@@ -101,7 +100,6 @@ export default function Contact({ scrolled, title }) {
                       width: "200px",
                       height: "auto",
                     }}
-                    data-aos="fade-up"
                   />
                 </div>
               </div>
